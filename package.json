@@ -1,0 +1,25 @@
+{
+  "name": "mygulp",
+  "version": "1.0.0",
+  "description": "some",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node gulpfile.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KostinStanislav/gulphello.git"
+  },
+  "author": "me",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KostinStanislav/gulphello/issues"
+  },
+  "homepage": "https://github.com/KostinStanislav/gulphello#readme",
+  "devDependencies": {
+    "eslint": "^3.12.1",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1"
+  }
+}

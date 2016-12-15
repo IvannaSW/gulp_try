@@ -1,0 +1,12 @@
+pages:
+  stage: deploy
+  cache:
+    paths:
+    - node_modules/
+  only:
+  - master
+  - /.*merge.*/
+  script: echo "Building the app"  
+  artifacts:
+    paths:
+    - public
